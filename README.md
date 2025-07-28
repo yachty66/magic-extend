@@ -53,3 +53,9 @@ export default nextConfig;
 ```bash
 vercel
 ```
+
+## project
+
+- get img of cristiano ronaldo
+- take the same prompt which i did for the twerking woman and the 
+- add a sponsored by magic hour 
