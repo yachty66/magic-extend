@@ -54,12 +54,12 @@ export default function Home() {
               </div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border-3 border-blue-400/30 group hover:border-blue-400/60 transition-all duration-300 aspect-[3/4]">
                 <Image
-                  src="/input.jpg"
+                  src="/input.jpg?v=1"
                   alt="Soccer player input image"
-                  width={600}
-                  height={800}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
                   priority
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
               </div>
