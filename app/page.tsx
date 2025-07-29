@@ -78,7 +78,7 @@ export default function Home() {
               </div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border-3 border-pink-400/30 group hover:border-pink-400/60 transition-all duration-300 aspect-[3/4]">
                 <video
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover"
                   controls
                   autoPlay
                   loop
