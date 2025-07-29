@@ -82,7 +82,6 @@ export default function Home() {
                   controls
                   autoPlay
                   loop
-                  muted
                   playsInline
                 >
                   <source src="/output.mp4" type="video/mp4" />
